@@ -1,6 +1,6 @@
 [package]
-name = "glium_text"
-version = "0.14.0"
+name = "glium_text_nxt"
+version = "0.15.0"
 authors = ["Pierre Krieger <pierre.krieger1708@gmail.com>"]
 description = "Text drawing with glium and freetype"
 documentation = "https://docs.rs/glium_text"
@@ -20,5 +20,5 @@ default-features = false
 cgmath = "0.16"
 
 [dev-dependencies.glium]
-version = "0.23"
+version = "0.27"
 features = ["glutin"]
